@@ -48,3 +48,12 @@ For each properties file:
 **build/dev2/region-dependent.properties**
 
 	a=3
+
+How to run the script?
+====
+
+	gradle installApp
+	cd build/install/propsgen
+	./propsgen description_file_path
+	
+	

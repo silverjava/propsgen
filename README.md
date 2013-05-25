@@ -5,7 +5,7 @@ Groovy DSL script to generate hierarchical properties file for Java
 
 How to write description file?
 ========
-`
+
 regions {
     basePath = "build"
 
@@ -26,4 +26,4 @@ regions {
         prop('a', '3')
     }
 }
-`
+

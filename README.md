@@ -27,3 +27,8 @@ How to write description file?
         }
     }
 
+This will generate the following properties
+
+    $APP_ROOT/build/ci/region-dependent.properties
+    $APP_ROOT/build/dev/region-dependent.properties
+    $APP_ROOT/build/dev2/region-dependent.properties

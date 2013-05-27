@@ -1,5 +1,7 @@
 apply plugin: 'groovy'
 apply plugin: 'application'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
 
 repositories {
     mavenCentral()
@@ -10,3 +12,7 @@ dependencies {
 }
 
 mainClassName = 'RegionGenerator'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.5'
+}

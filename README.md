@@ -56,4 +56,4 @@ How to run the script?
 	cd build/install/propsgen
 	./propsgen description_file_path
 	
-	
+l	
